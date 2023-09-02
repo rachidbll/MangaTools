@@ -1,0 +1,39 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    
+    <title>TikTok Tags Analytics</title>
+    <!-- Link to your custom CSS stylesheet -->
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/script.js"></script>
+  <!-- Include CSS here -->
+</head>
+<body>
+  <h1>TikTok Tags Analytics</h1>
+  <div>
+    <label for="keyword">Enter a Keyword:</label>
+    <input type="text" id="keyword" name="keyword">
+    <button id="fetchData">Get Analytics</button>
+  </div>
+  <h2>GET TOP HASHTAGS</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Hashtag</th>
+        <th>Views</th>
+        <th>User</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- Data will be inserted here -->
+    </tbody>
+  </table>
+  <div id="loadingMessage" style="display: none;">Getting data...</div>
+
+</body>
+<footer>
+   
+</footer>
+</html>
